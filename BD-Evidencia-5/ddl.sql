@@ -19,8 +19,7 @@ CREATE TABLE Dispositivo (
   id_tipo_dispositivo INT,
   id_usuario INT,
   FOREIGN KEY (id_tipo_dispositivo) REFERENCES TipoDispositivo(id_tipo_dispositivo),
-  FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario),
-  FOREIGN KEY (id_evento) REFERENCES Evento(id_evento)
+  FOREIGN KEY (id_usuario) REFERENCES Usuario(id_usuario)
 );
 
 CREATE TABLE TipoEvento (
@@ -36,4 +35,3 @@ CREATE TABLE Evento (
   FOREIGN KEY (id_dispositivo) REFERENCES Dispositivo(id_dispositivo),
   FOREIGN KEY (id_tipo_evento) REFERENCES TipoEvento(id_tipo_evento)
 );
-

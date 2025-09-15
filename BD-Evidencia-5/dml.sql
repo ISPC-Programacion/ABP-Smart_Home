@@ -18,13 +18,13 @@ values ('camara'),
 
 select * from TipoDispositivo;
 
-insert into Dispositivo (esencial , configuracion, estado, id_tipo_dispositivo, id_usuario, id_evento) 
-values (false , 'smartfd3.v', 'prendido', 1 , 1, 1),
-(true , 'hotcustom2.0', 'prendido', 2 , 2, 2),
-(true , 'led', 'prendido', 3 , 3, 3),
-(false , 'calentador.v', 'prendido', 4 , 4, 4),
-(false , 'frigo.v', 'prendido', 5 ,5, 5),
-(false , 'smart.v', 'prendido', 6 , 6, 6);
+insert into Dispositivo (esencial , configuracion, estado, id_tipo_dispositivo, id_usuario) 
+values (false , 'smartfd3.v', 'prendido', 1 , 1 ),
+(true , 'hotcustom2.0', 'prendido', 2 , 2 ),
+(true , 'led', 'prendido', 3 , 3),
+(false , 'calentador.v', 'prendido', 4 , 4),
+(false , 'frigo.v', 'prendido', 5 ,5),
+(false , 'smart.v', 'prendido', 6 , 6);
 
 select * from Dispositivo;
 
