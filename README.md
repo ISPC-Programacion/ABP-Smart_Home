@@ -1,11 +1,18 @@
 # ABP-Smart_Home
 
-En la raíz del repositorio se deberá encontrar una carpeta llamada “POO-SmartHome” (Ev5) con la implementación de clases desarrolladas bajo el enfoque de Desarrollo Guiado por Pruebas (TDD). (Puede ser un nuevo repositorio)
+Se fallo en el cumplimiento con lo deseado en la evidencia 5 por parte de programacion.
+No se presenta Diagrama de clases por dudas con respecto a la DB.
+No se especifican los datos restringidos, privados. En este momento estan todos publicos
 
-Clases (deseable segun DB):
-Usuario - falta realizar pruebas y mejorar el codigo para aplicar restricciones
-TipoDispositivo- Pruebas hechas y finalizado segun la DB
-Dispositivo- Se amoldo el codigo del practico anterior tomando en cuenta el diseño de la db, falta realizar mejoras
-TipoEvento-
-Evento- 
-Auth-
+
+Causantes de la falla: 
+1- Comprension erronea de la consigna (No entendimos si dentro de los archivos POO iban tambien los metodos como listar,buscar, mostrar. No se pudo configurar pytest)
+2- Bajas en el equipo a ultimo momento
+3- Se subestimo el tiempo para la implementacion de las actividades
+4- Sentimos que le falta algo a la DB por lo que no sabiamos si la forma que estamos aplicando POO es correcta.
+
+
+Dudas para recuperatorio:
+1- Para la implementacion de TDD es necesario crar un nuevo archivo y que se llame test.py o dentro de un archivo pongo test y la funcion a hacer la prueba y funciona?
+2- Tratamos de amoldar el trabajo anterior con la DB y sentimos que fallamos. Queremos saber si esta bien el camino el que estamos llevando el proyecto o debemos empezar de nuevo con una nueva logica. 
+3- Si tuvieramos que hacer una clase para los metodos en la padre solo llamaríamos al nombre y luego vamos definiendo los metodos de cada funcion en subclases o es demasiado hacer eso y ponemos un mismo archivo con todas las funciones?
