@@ -30,6 +30,3 @@ modo_ahorro.cambiar_estado()
 modo_ahorro.ejecutar()         
 
 
-if __name__ == "__main__":
-    evento_prueba = Automatizacion("Alarma activada")
-    print(f"Se creó un tipo de evento: {evento_prueba}")
